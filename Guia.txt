@@ -1,0 +1,11 @@
+Componente Pagina Principal: Pages/Home
+
+Componente Pagina Proyectos: Pages/Products
+
+Componente Pagina Sobre nosotros:Pages/About
+
+Componente Pagina Principal:
+
+Componente Pagina Principal:
+
+

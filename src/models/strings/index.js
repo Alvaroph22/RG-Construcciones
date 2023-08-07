@@ -1,0 +1,1 @@
+export {useProductsString} from "./products";
