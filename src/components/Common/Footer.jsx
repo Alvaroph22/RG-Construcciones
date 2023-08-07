@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Switcher from '../Elements/Switcher';
 
-var bgimage = require('./../../images/background/bg-site.png');
+
+{/*var bgimage = require('./../../images/background/bg-site.png');*/}
 
 class Footer extends React.Component {
     constructor(props) {

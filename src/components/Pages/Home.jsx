@@ -6,7 +6,6 @@ import About from './../Elements/About';
 import OurValue from './../Elements/OurValue';
 import OurMission from './../Elements/OurMission';
 import OurServices from './../Elements/OurServices';
-import OurProject from './../Elements/OurProject';
 import Testimonials from './../Elements/Testimonials';
 
 
