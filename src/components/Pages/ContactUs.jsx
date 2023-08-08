@@ -48,7 +48,7 @@ class ContactUs extends React.Component {
                                                     <button name="submit" type="submit" value="Submit" className="site-button btn-effect">submit </button>
                                                 </div>
                                             </div>
-                                            <input type='hidden' name='_next' value='http://localhost:3000/contactus'/>
+                                            <input type='hidden' name='_next' value='https://rg-construcciones.vercel.app/contactus'/>
                                             <input type='hidden' name='_captcha' value='false'/>
                                             <input type="hidden" name="_autoresponse" value="Su mensaje ha sido enviado con Exito, Gracias"/>
                                         </form>
