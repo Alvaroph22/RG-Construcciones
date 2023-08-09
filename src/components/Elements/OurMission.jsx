@@ -13,14 +13,14 @@ class OurMission extends React.Component {
                 <div className="section-full mobile-page-padding mission-outer-section  p-t80 p-b30 bg-gray bg-no-repeat bg-right-center" style={{ backgroundImage: 'url(' + img1 + '), url(' + img2 + ')' }}>
                     <div className="section-content">
                         <div className="container">
-                            {/* TITLE START */}
+                            {/* TITLE START *
                             <div className="section-head">
                                 <div className="mt-separator-outer separator-center">
                                     <div className="mt-separator">
                                         <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Nuestra</span> Mision y Vision</h2>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/}
                             {/* TITLE END */}
                             <div className="row">
                                 <div className="col-md-4 col-sm-6">
@@ -34,9 +34,9 @@ class OurMission extends React.Component {
                                         {/*    <li><NavLink to="/about">Implementation</NavLink></li>*/}
                                         {/*    <li><NavLink to="/about">Leed consultation</NavLink></li>*/}
                                         {/*</ul>*/}
-                                        <div className="text-right">
+                                        {/*<div className="text-right">
                                             <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6">
@@ -50,9 +50,9 @@ class OurMission extends React.Component {
                                         {/*    <li><NavLink to="/about">Implementation</NavLink></li>*/}
                                         {/*    <li><NavLink to="/about">Leed consultation</NavLink></li>*/}
                                         {/*</ul>*/}
-                                        <div className="text-right">
+                                        {/*<div className="text-right">
                                             <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-6">
@@ -61,9 +61,9 @@ class OurMission extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
+                    {/*<div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
                         <strong>Mision y Vision</strong>
-                    </div>
+                    </div>*/}
                 </div>
             </>
         );

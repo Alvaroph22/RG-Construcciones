@@ -91,9 +91,9 @@ class Testimonials extends React.Component {
                             
                         </div>
                     </div>
-                    <div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
+                    {/*<div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
                         <strong>Clientes</strong>
-                    </div>
+                    </div>*/}
                 </div>
             </>
         );

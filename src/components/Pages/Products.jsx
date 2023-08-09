@@ -121,7 +121,7 @@ const projects = [
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Nuestros</span> Proyectos</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Ultimos</span> Proyectos</h2>
                                 </div>
                                 {/*{cart.length>0 &&  <div style={{display:'flex'}} data-toggle="modal" data-target="#large-Modal" > <img src={Cart}/> <p style={{
 

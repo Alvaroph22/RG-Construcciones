@@ -60,24 +60,24 @@ class Footer extends React.Component {
                                                 marginBottom:'2rem',
                                             }}/></NavLink>
                                         </div>
-                                        <p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>
+                                        {/*<p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>*/}
                                         <ul className="social-icons  mt-social-links">
 
-                                            <li><NavLink to={"#"} className="fa fa-facebook" /></li>
-                                            <li><NavLink to={"#"} className="fa fa-twitter" /></li>
-                                            <li><NavLink to={"#"} className="fa fa-linkedin" /></li>
+                                            <li><NavLink to={"#"} className="fa fa-instagram" /></li>
+                                            <li><NavLink to={"#"} className="fa fa-whatsapp" /></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
                                 {/* RESENT POST */}
                                 <div className="col-lg-3 col-md-6 col-sm-6">
                                     <div className="widget widget_address_outer">
-                                        <h4 className="widget-title">RG Acabados</h4>
+                                        <h4 className="widget-title">RG Acabados Arquitectonicos en Acero SAS</h4>
                                         <ul className="widget_address">
                                             <li>Cl. 29 #21-47, Manga, Cartagena de Indias, Bolivar</li>
                                             <li>rg1ser@gmail.com</li>
                                             <li>(+57) 304 4368996</li>
-                                            <li>(+57) 315 4292681</li>
+                                            <li>(+57) 312 2674292</li>
                                         </ul>
                                     </div>
                                 </div>

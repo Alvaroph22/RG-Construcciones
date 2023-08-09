@@ -13,7 +13,7 @@ class ContactUs extends React.Component {
 
                 <Header />
                 <div className="page-content">
-                <Banner title="¡Poniendo un plan en acción, para asegurar su satisfacción!" pagename="Contact Us" bgimage={bnrimg}/>
+                {/*<Banner title="¡Poniendo un plan en acción, para asegurar su satisfacción!" pagename="Contact Us" bgimage={bnrimg}/>*/}
                    
                     {/* SECTION CONTENTG START */}
                     <div className="section-full p-tb80 inner-page-padding">
@@ -30,22 +30,22 @@ class ContactUs extends React.Component {
                                                 <div className="section-head">
                                                     <div className="mt-separator-outer separator-left">
                                                         <div className="mt-separator">
-                                                            <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Get</span> In touch</h2>
+                                                            <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary"></span>Contactanos</h2>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 {/* TITLE END */}
                                                 <div className="form-group">
-                                                    <input name="username" type="text" required className="form-control" placeholder="Name" />
+                                                    <input name="username" type="text" required className="form-control" placeholder="Nombre" />
                                                 </div>
                                                 <div className="form-group">
-                                                    <input name="email" type="text" className="form-control" required placeholder="Email" />
+                                                    <input name="email" type="text" className="form-control" required placeholder="Correo Electronico" />
                                                 </div>
                                                 <div className="form-group">
-                                                    <textarea name="message" rows={4} className="form-control " required placeholder="Message" defaultValue={""} />
+                                                    <textarea name="message" rows={4} className="form-control " required placeholder="Mensaje" defaultValue={""} />
                                                 </div>
                                                 <div className="text-right">
-                                                    <button name="submit" type="submit" value="Submit" className="site-button btn-effect">submit </button>
+                                                    <button name="submit" type="submit" value="Submit" className="site-button btn-effect">Enviar </button>
                                                 </div>
                                             </div>
                                             <input type='hidden' name='_next' value='https://rg-construcciones.vercel.app/contactus'/>
@@ -59,7 +59,7 @@ class ContactUs extends React.Component {
                                             <div className="section-head">
                                                 <div className="mt-separator-outer separator-left">
                                                     <div className="mt-separator">
-                                                        <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Contact</span> Info</h2>
+                                                        <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Informacion</span>De Contacto</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -68,21 +68,22 @@ class ContactUs extends React.Component {
                                                 <div className="mt-icon-box-wraper left p-b40">
                                                     <div className="icon-xs"><i className="fa fa-phone" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Phone number</h5>
+                                                        <h5 className="m-t0 font-weight-500">Telefonos</h5>
                                                         <p>(304) 436-8996</p>
+                                                        <p>(312) 2674292</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper left p-b40">
                                                     <div className="icon-xs"><i className="fa fa-envelope" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Email address</h5>
+                                                        <h5 className="m-t0 font-weight-500">Correo</h5>
                                                         <p>rg1ser@gmail.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper left">
                                                     <div className="icon-xs"><i className="fa fa-map-marker" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Address info</h5>
+                                                        <h5 className="m-t0 font-weight-500">Direccion</h5>
                                                         <p>Cl. 29 #21-47, Manga, Cartagena de Indias, Bolivar</p>
                                                     </div>
                                                 </div>
