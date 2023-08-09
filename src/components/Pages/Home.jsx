@@ -16,10 +16,9 @@ const Home = () => {
                 <Slider />
                 {/*<Specialization />*/}
                 <About />
-                <OurValue />
+                {/*<OurValue />*/}
                 <OurMission />
-                <OurServices />
-                {/*<WhatsAppButton/>*/}
+                {/*<OurServices />>*/}
                 {/*<OurProject />*/}
                 <Testimonials />
             </div>
