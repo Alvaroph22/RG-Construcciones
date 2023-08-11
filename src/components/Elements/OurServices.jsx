@@ -78,6 +78,7 @@ class OurServices extends React.Component {
     render() {
         return (
             <>
+                <Header />
                 <div className="section-full mobile-page-padding  p-b50  square_shape2">
                     <div className="section-content">
                         <div className="Service-half-top p-t80  bg-dark bg-moving" style={{ backgroundImage: 'url(' + img1 + ')' }}>
@@ -124,6 +125,7 @@ class OurServices extends React.Component {
                         <strong>Servicios</strong>
                     </div>*/}
                 </div>
+                <Footer />
             </>
         );
     }

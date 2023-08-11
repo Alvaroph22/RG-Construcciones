@@ -88,9 +88,9 @@ class About extends React.Component {
                                         <p><strong>El bienestar, la selección, la preparación y el compromiso con nuestro personal es el más importante, para cumplir con calidad cualquier tipo de trabajo o contrato a ejecutar.</strong></p>
                                         <p>Dentro de nuestras políticas de calidad, está el principal valor de la responsabilidad, ya que nos comprometemos a estudiar cualitativamente y cuantitativamente, todos los pasos desde la planificación, la fabricación, el ensamble y el acabado, de cualquier tipo de trabajo o contrato a realizar, con el fin de entregar a satisfacción teniendo en cuenta todas las variables que podrían influir en la ejecución proyectos.</p>
                                         <p>Las observaciones por parte del cliente es de vital importancia, ya que nos preocupa conocer sus puntos de vista para entregar el trabajo a satisfacción</p>
-                                        <div className="text-right">
+                                        {/*<div className="text-right">
                                             <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                             </div>

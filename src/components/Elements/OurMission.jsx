@@ -25,7 +25,7 @@ class OurMission extends React.Component {
                             <div className="row">
                                 <div className="col-md-4 col-sm-6">
                                     <div className="mission-left bg-white m-b30 p-a30 bg-no-repeat bg-bottom-left" style={{ backgroundImage: 'url(' + img3 + ')' }}>
-                                        <h3 className="m-t0"><span className="font-weight-100">Mision</span><br /></h3>
+                                        <h3 className="m-t0"><span className="font-weight-300 text-primary" >Mision</span><br /></h3>
                                         <p>RG – ACABADOS ARQUITECTÓNICOS EN ACERO S.A.S. con su gran equipo de trabajo, tiene como misión ofrecer el servicio de construir con experiencia, calidad y responsabilidad, diseños, construcciones, remodelaciones, puertas automatizadas, entre otros, para demostrar los mejores resultados de toda actividad, pequeña, mediana o a gran escala.</p>
                                         {/*<ul className="list-angle-right anchor-line">*/}
                                         {/*    <li><NavLink to="/about">Construction Management</NavLink></li>*/}
@@ -41,7 +41,7 @@ class OurMission extends React.Component {
                                 </div>
                                 <div className="col-md-4 col-sm-6">
                                     <div className="mission-left bg-white m-b30 p-a30 bg-no-repeat bg-bottom-left" style={{ backgroundImage: 'url(' + img3 + ')' }}>
-                                        <h3 className="m-t0"><span className="font-weight-100">Vision</span><br /></h3>
+                                        <h3 className="m-t0"><span className="font-weight-300 text-primary">Vision</span><br /></h3>
                                         <p>RG – ACABADOS ARQUITECTÓNICOS EN ACERO S.A.S. con su gran equipo de trabajo, tiene como misión ofrecer el servicio de construir con experiencia, calidad y responsabilidad, diseños, construcciones, remodelaciones, puertas automatizadas, entre otros, para demostrar los mejores resultados de toda actividad, pequeña, mediana o a gran escala.</p>
                                         {/*<ul className="list-angle-right anchor-line">*/}
                                         {/*    <li><NavLink to="/about">Construction Management</NavLink></li>*/}

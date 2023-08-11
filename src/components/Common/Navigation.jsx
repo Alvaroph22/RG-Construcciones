@@ -49,9 +49,11 @@ class Navigation extends React.Component {
                         <li>
                         <NavLink to={"/"}>Inicio</NavLink>
                         </li>
+
                         <li>
-                        <NavLink to={"/about"}>Nosotros</NavLink>
+                        <NavLink to={"/OurServices"}>Productos Y Servicios</NavLink>
                         </li>
+
                         <li className="submenu-direction">
                             <NavLink to={"/products"}>Proyectos</NavLink>
                         </li>
