@@ -7,6 +7,7 @@ import OurValue from './../Elements/OurValue';
 import OurMission from './../Elements/OurMission';
 import OurServices from './../Elements/OurServices';
 import Testimonials from './../Elements/Testimonials';
+import WhatsappButton from './../Elements/WhatsappButton';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 {/*<OurServices/>>*/}
                 {/*<OurProject />*/}
                 <Testimonials />
+                <WhatsappButton/>
             </div>
             <Footer />
         </>;

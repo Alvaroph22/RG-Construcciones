@@ -5,6 +5,7 @@ import Banner from '../Elements/Banner';
 import About4 from '../Elements/About4';
 import Specialization4 from '../Elements/Specialization4';
 import Team3 from '../Elements/Team3';
+import WhatsappButton from './../Elements/WhatsappButton';
 
 
 
@@ -19,6 +20,7 @@ class About extends React.Component {
                      {/*<About4 />*/}
                     <Specialization4 />
                      {/*<Team3 />*/}
+                     <WhatsappButton/>
 
                 </div>
 

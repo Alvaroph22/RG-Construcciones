@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './../Common/Header';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
+import WhatsappButton from './../Elements/WhatsappButton';
 
 const bnrimg = require('./../../images/banner/4.jpg');
 
@@ -104,9 +105,10 @@ class ContactUs extends React.Component {
                         </div>
                     </div>
                     {/* SECTION CONTENT END */}
+                <WhatsappButton/>    
                 </div>
 
-
+                
                 <Footer />
 
             </>

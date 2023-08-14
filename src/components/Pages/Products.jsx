@@ -4,6 +4,8 @@ import Footer from '../Common/Footer';
 import { NavLink } from 'react-router-dom';
 import useProducts from "../../controllers/products";
 import SimilarProjects from '../Elements/SimilarProjects';
+import WhatsappButton from './../Elements/WhatsappButton';
+
 const filters = [
     { label: "Museo Del Oro", filter: ".cat-1" },
     { label: "PortoMarine", filter: ".cat-2" },
@@ -175,6 +177,7 @@ const projects = [
                     </div>
 
                 </div>
+             <WhatsappButton/>                       
             </div>
             {/*<SimilarProjects /> */}
             <Footer />

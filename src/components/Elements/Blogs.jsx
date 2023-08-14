@@ -3,90 +3,100 @@ import { NavLink } from 'react-router-dom';
 
 const blogs = [
     {
-        image: require('./../../images/blog/latest-blog/pic1.jpg'),
-        title: 'Commercial design for project',
-        description: 'Which is the same as saying through shrinking from toil and pain.',
-        date: '14',
-        month: 'April',
+        image: require('./../../images/blog/default/thum1.jpg'),
+        title: 'Creating quality urban lifestyles, building stronger communities.',
+        description: 'Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis',
+        date: '20 May',
         year: '2021'
     },
     {
-        image: require('./../../images/blog/latest-blog/pic2.jpg'),
-        title: 'Our interior design prediction',
-        description: 'Today we can tell you, thanks to your passion, hard work creativity, and expertise.',
-        date: '16',
-        month: 'Feb',
+        image: require('./../../images/blog/default/thum2.jpg'),
+        title: 'When it comes to your house, don’t mess with the rest, trust the best',
+        description: 'Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis',
+        date: '20 May',
         year: '2021'
     },
     {
-        image: require('./../../images/blog/latest-blog/pic3.jpg'),
-        title: 'Low cost interior designing ideas',
-        description: 'Every pleasure is to be welcomed every pain avoided. in certain circumstances obligations.',
-        date: '18',
-        month: 'Jan',
+        image: require('./../../images/blog/default/thum3.jpg'),
+        title: 'Making your vision come true, that is what we do.',
+        description: 'Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis',
+        date: '20 May',
+        year: '2021'
+    },
+    {
+        image: require('./../../images/blog/default/thum4.jpg'),
+        title: 'Putting a plan to action, to assure your satisfaction!',
+        description: 'Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis',
+        date: '20 May',
+        year: '2021'
+    },
+    {
+        image: require('./../../images/blog/default/thum5.jpg'),
+        title: 'Don’t get framed by the competition, trust our solid reputation.',
+        description: 'Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis',
+        date: '20 May',
         year: '2021'
     }
 ]
 
-var bnr1 = require('./../../images/background/bg5.jpg');
 
-class Blogs extends React.Component {
+class BlogList extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full mobile-page-padding p-t80 p-b30 square_shape1 bg-parallax bg-cover" data-stellar-background-ratio="0.5" style={{backgroundImage:"url(" + bnr1.default + ")"}}>
-                    <div className="container">
-                        {/* TITLE START */}
-                        <div className="section-head ">
-                            <div className="mt-separator-outer separator-center">
-                                <div className="mt-separator">
-                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Latest</span> Blog</h2>
+                <div className="col-md-8 col-sm-7">
+                    <div className="news-listing ">
+                        {blogs.map((item, index) => (
+                            <div className="blog-post blog-lg date-style-3 block-shadow" key={index}>
+                                <div className="mt-post-media mt-img-effect zoom-slow">
+                                    <NavLink to={"/post-image"}><img src={item.image.default} alt=""/></NavLink>
                                 </div>
-                            </div>
-                        </div>
-                        {/* TITLE END */}
-                        {/* IMAGE CAROUSEL START */}
-                        <div className="section-content">
-                            <div className="row">
-                                {blogs.map((item, index) => (
-                                    <div className="col-md-4 col-sm-6" key={index}>
-                                        <div className="mt-box blog-post latest-blog-3 date-style-1 bg-white m-b30">
-                                            <div className="mt-post-media mt-img-overlay7">
-                                                <NavLink to="/post-image"><img src={item.image.default} alt=""/></NavLink>
-                                            </div>
-                                            <div className="mt-post-info p-a30">
-                                                <div className="post-overlay-position">
-                                                    <div className="mt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong className="text-primary">{item.date}</strong> <span>{item.month} {item.year}</span></li>
-                                                            <li className="post-author">By <NavLink to="/post-image">Admin</NavLink> </li>
-                                                            <li className="post-comment"><NavLink to="/post-image">2 comment</NavLink> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="mt-post-title ">
-                                                        <h4 className="post-title m-b0">{item.title}</h4>
-                                                    </div>
-                                                    <div className="mt-post-text">
-                                                        <p>{item.description}</p>
-                                                    </div>
-                                                    <div className="readmore-line">
-                                                        <span><NavLink to="/post-image" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink></span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div className="mt-post-info p-a30 p-m30 bg-white">
+                                    <div className="mt-post-title ">
+                                        <h4 className="post-title"><NavLink to={"/post-image"}>{item.title}</NavLink></h4>
+                                    </div>
+                                    <div className="mt-post-meta ">
+                                        <ul>
+                                            <li className="post-date"> <i className="fa fa-calendar text-primary" /><strong>{item.date}</strong> <span> {item.year}</span> </li>
+                                            <li className="post-author"><i className="fa fa-user text-primary" /><NavLink to={"/post-image"}>By <span>John</span></NavLink> </li>
+                                            <li className="post-comment"><i className="fa fa-comments text-primary" /> <NavLink to={"/post-image"}>0 Comments</NavLink> </li>
+                                        </ul>
+                                    </div>
+                                    <div className="mt-post-text">
+                                        <p>{item.description}</p>
+                                    </div>
+                                    <div className="clearfix">
+                                        <div className="mt-post-readmore pull-left">
+                                            <NavLink to={"/post-image"} title="READ MORE" rel="bookmark" className="site-button-link">Read More<i className="fa fa-angle-right arrow-animation" /></NavLink>
+                                        </div>
+                                        <div className="widget_social_inks pull-right">
+                                            <ul className="social-icons social-radius social-dark m-b0">
+                                                <li><NavLink to={"#"} className="fa fa-facebook"></NavLink></li>
+                                                <li><NavLink to={"#"} className="fa fa-twitter"></NavLink></li>
+                                                <li><NavLink to={"#"} className="fa fa-rss" ></NavLink></li>
+                                                <li><NavLink to={"#"} className="fa fa-youtube"></NavLink></li>
+                                                <li><NavLink to={"#"} className="fa fa-instagram" ></NavLink></li>
+                                            </ul>
                                         </div>
                                     </div>
-                                ))}
-                            </div>
-                        </div>
+                                </div>
+                            </div>                
+                        ))}
+                        
                     </div>
-                    <div className="hilite-title text-right p-r50 text-uppercase hilite-dark">
-                        <strong>Blog</strong>
-                    </div>
+                    <ul className="pagination m-tb0">
+                        <li><NavLink to={"#"}>«</NavLink></li>
+                        <li><NavLink to={"#"}>1</NavLink></li>
+                        <li><NavLink to={"#"}>2</NavLink></li>
+                        <li><NavLink to={"#"}>3</NavLink></li>
+                        <li><NavLink to={"#"}>4</NavLink></li>
+                        <li><NavLink to={"#"}>5</NavLink></li>
+                        <li><NavLink to={"#"}>»</NavLink></li>
+                    </ul>
                 </div>
             </>
         );
     }
 };
 
-export default Blogs;
+export default BlogList;
