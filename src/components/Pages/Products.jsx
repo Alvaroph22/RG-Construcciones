@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import Header from './../Common/Header';
-import Footer from './../Common/Footer';
+import Header from '../Common/Header';
+import Footer from '../Common/Footer';
 import { NavLink } from 'react-router-dom';
 import useProducts from "../../controllers/products";
 import SimilarProjects from '../Elements/SimilarProjects';

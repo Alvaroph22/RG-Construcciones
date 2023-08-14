@@ -64,7 +64,7 @@ class Specialization4 extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Nuestra</span> Especialidad</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Productos </span>Y Servicios</h2>
                                 </div>
                             </div>
                         </div>
