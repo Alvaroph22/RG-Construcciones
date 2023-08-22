@@ -25,7 +25,7 @@ class ContactUs extends React.Component {
                                 {/* CONTACT FORM*/}
                                 <div className="row">
                                     <div className="col-md-8 col-sm-6">
-                                        <form className="contact-form cons-contact-form" action="https://formsubmit.co/alvaroperinan@gmail.com" method="POST">
+                                        <form className="contact-form cons-contact-form" action="https://formsubmit.co/rg1ser@hotmail.com" method="POST">
                                             <div className="contact-one m-b30">
                                                 {/* TITLE START */}
                                                 <div className="section-head">
@@ -60,7 +60,7 @@ class ContactUs extends React.Component {
                                             <div className="section-head">
                                                 <div className="mt-separator-outer separator-left">
                                                     <div className="mt-separator">
-                                                        <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Informacion</span>De Contacto</h2>
+                                                        <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Informacion </span>De Contacto</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -71,7 +71,7 @@ class ContactUs extends React.Component {
                                                     <div className="icon-content">
                                                         <h5 className="m-t0 font-weight-500">Telefonos</h5>
                                                         <p>(304) 436-8996</p>
-                                                        <p>(312) 2674292</p>
+                                                        <p>(312) 674-4292</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper left p-b40">

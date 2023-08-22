@@ -58,7 +58,7 @@ class Navigation extends React.Component {
                             <NavLink to={"/products"}>Proyectos</NavLink>
                         </li>
                         <li>
-                        <a href={"/assets/files/RG_BROCHURE.pdf"} download>Brochure</a>
+                        <a href={"/assets/files/Brochure 2023.pdf"} download>Brochure</a>
                         </li>                        
                         <li>
                             <NavLink to={"/contactus"}>Contactanos</NavLink>

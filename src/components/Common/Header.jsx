@@ -109,26 +109,26 @@ class Header extends React.Component {
                                                 <div className="mt-icon-box-wraper center p-b30">
                                                     <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-phone" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Phone number</h5>
+                                                        <h5 className="m-t0 font-weight-500">Telefono</h5>
                                                         <p>(+57) 304 4368996</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper center p-b30">
                                                     <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-envelope" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Email address</h5>
+                                                        <h5 className="m-t0 font-weight-500">Email</h5>
                                                         <p>rg1ser@gmail.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper center p-b30">
                                                     <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-map-marker" /></div>
                                                     <div className="icon-content">
-                                                        <h5 className="m-t0 font-weight-500">Address info</h5>
+                                                        <h5 className="m-t0 font-weight-500">Dirección</h5>
                                                         <p>Cl. 29 #21-47, Manga, Cartagena de Indias, Bolivar</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="full-social-bg">
+                                            {/*<div className="full-social-bg">
                                                 <ul>
                                                     <li><NavLink to={"#"} className="facebook"><i className="fa fa-facebook" /></NavLink></li>
                                                     <li><NavLink to={"#"} className="google"><i className="fa fa-google" /></NavLink></li>
@@ -137,7 +137,7 @@ class Header extends React.Component {
                                                     <li><NavLink to={"#"} className="twitter"><i className="fa fa-twitter" /></NavLink></li>
                                                     <li><NavLink to={"#"} className="youtube"><i className="fa fa-youtube" /></NavLink></li>
                                                 </ul>
-                                            </div>
+                                            </div>*/}
                                             <div className="text-center">
                                                 <h4 className="font-weight-600">©  2023 RG Acabados</h4>
                                             </div>
