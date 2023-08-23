@@ -90,11 +90,11 @@ class Header extends React.Component {
                                 </button>
                                 {/* ETRA Nav */}
                                 <div className="extra-nav">
-                                    <div className="extra-cell">
+                                     {/*<div className="extra-cell">
                                         <NavLink to={"#"} onClick={this.handleSearchToggle}> 
                                             <i className="fa fa-search" />
                                         </NavLink>
-                                    </div>
+                                    </div>*/}
                                     <div className="extra-cell">
                                         <NavLink to={"#"} className="contact-slide-show" onClick={this.handleQuoteToggle}><i className="fa fa-angle-left arrow-animation" /></NavLink>
                                     </div>
@@ -144,7 +144,7 @@ class Header extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                {/* SITE Search */}
+                                {/* SITE Search 
                                 <div id="search" className={isSearchActive ? "open" : null}>
                                     <span className="close" onClick={this.handleSearchToggle} />
                                     <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
@@ -153,7 +153,7 @@ class Header extends React.Component {
                                             <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
                                         </div>
                                     </form>
-                                </div>
+                                </div>*/}
                                 {/* MAIN Vav */}
                                 <Navigation />
                             </div>
