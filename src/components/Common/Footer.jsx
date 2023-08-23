@@ -66,7 +66,7 @@ class Footer extends React.Component {
                                            {/* <li><NavLink to={"https://instagram.com/rg_construcciones17"} className="fa fa-instagram" /></li>
                                             <li><NavLink to={"https://api.whatsapp.com/send?phone=3044368996"} className="fa fa-whatsapp" /></li>*/}
 
-                                            <li><a href="https://instagram.com/rg_construcciones17" className="fa fa-whatsapp"></a></li>
+                                            <li><a href="https://instagram.com/rg_construcciones17" className="fa fa-instagram"></a></li>
                                             <li><a href="https://api.whatsapp.com/send?phone=3044368996" className="fa fa-whatsapp"></a></li>
                                             
                                         </ul>
