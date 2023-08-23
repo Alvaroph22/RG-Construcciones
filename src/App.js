@@ -1,6 +1,6 @@
 import React from 'react';
 import Components from './components/Components';
-import ScrolToTop from './components/Elements/ScrolToTop';
+
 import Loader from "./components/Elements/Loader";
 import {useInterceptor} from "./config/interceptor";
 import {Provider} from "react-redux";
@@ -15,7 +15,7 @@ const App = () => {
           <PersistGate persistor={persist}>
               <div className="App">
                   <Components />
-                  <ScrolToTop/>
+                  {/*<ScrolToTop/>*/}
                   <Loader/>
               </div>
           </PersistGate>

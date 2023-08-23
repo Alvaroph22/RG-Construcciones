@@ -63,8 +63,11 @@ class Footer extends React.Component {
                                         {/*<p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>*/}
                                         <ul className="social-icons  mt-social-links">
 
-                                            <li><NavLink to={"https://instagram.com/rg_construcciones17"} className="fa fa-instagram" /></li>
-                                            <li><NavLink to={"https://api.whatsapp.com/send?phone=3044368996"} className="fa fa-whatsapp" /></li>
+                                           {/* <li><NavLink to={"https://instagram.com/rg_construcciones17"} className="fa fa-instagram" /></li>
+                                            <li><NavLink to={"https://api.whatsapp.com/send?phone=3044368996"} className="fa fa-whatsapp" /></li>*/}
+
+                                            <li><a href="https://instagram.com/rg_construcciones17" className="fa fa-whatsapp"></a></li>
+                                            <li><a href="https://api.whatsapp.com/send?phone=3044368996" className="fa fa-whatsapp"></a></li>
                                             
                                         </ul>
                                     </div>
