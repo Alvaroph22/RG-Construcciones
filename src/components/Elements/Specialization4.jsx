@@ -10,9 +10,9 @@ const services = [
     },
     {
         count: 2,
-        title: 'CARPINTERIA METALICA',
+        title: 'CARPINTERIA METALICA ACERO INOXIDABLE',
         icon: require('./../../images/icon/renovation.png'),
-        description: 'Carpinteria metalica (hierro, aluminio, acero) estrcuturas, mezzanines, barandas, cerramientos, etc.',
+        description: 'Hierro, aluminio, acero, estructuras, mezzanines, barandas, cerramientos, etc.',
     },
     {
         count: 3,

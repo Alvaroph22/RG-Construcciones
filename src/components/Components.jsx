@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 
 import ContactUs from './Pages/ContactUs';
-import Products from "./Pages/Products";
+import Products from "./Pages/Projects";
 
 class Components extends React.Component {
     render() {
@@ -13,12 +13,12 @@ class Components extends React.Component {
                 <div className="page-wraper">
                         <Switch>
                             <Route path='/' exact component={Home} />
-                            <Route path='/products' exact component={Products} />
+                            <Route path='/projects' exact component={Products} />
                             {/*<Route path='/homepage2' exact component={Home2} />*/}
                             {/*<Route path='/homepage3' exact component={Home3} />*/}
                             {/*<Route path='/homepage4' exact component={Home4} />*/}
 
-                            <Route path='/about' exact component={About} />
+                            <Route path='/productandservices' exact component={About} />
                             {/*<Route path='/services' exact component={Services} />*/}
 
                             {/*<Route path='/blog-grid' exact component={BlogGrid} />*/}

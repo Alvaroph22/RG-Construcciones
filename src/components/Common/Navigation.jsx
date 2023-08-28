@@ -51,11 +51,11 @@ class Navigation extends React.Component {
                         </li>
 
                         <li>
-                            <NavLink to={"/about"}>Productos Y Servicios</NavLink>
+                            <NavLink to={"/productandservices"}>Productos Y Servicios</NavLink>
                         </li>
 
                         <li className="submenu-direction">
-                            <NavLink to={"/products"}>Proyectos</NavLink>
+                            <NavLink to={"/projects"}>Proyectos</NavLink>
                         </li>
                         <li>
                         <a href={"/assets/files/Brochure 2023.pdf"} download>Brochure</a>

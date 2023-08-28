@@ -4,7 +4,7 @@ import Footer from '../Common/Footer';
 import { NavLink } from 'react-router-dom';
 import useProducts from "../../controllers/products";
 import SimilarProjects from '../Elements/SimilarProjects';
-import WhatsappButton from './../Elements/WhatsappButton';
+import WhatsappButton from '../Elements/WhatsappButton';
 
 const filters = [
     { label: "Museo Del Oro", filter: ".cat-1" },
